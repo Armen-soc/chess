@@ -58,6 +58,8 @@ player2_id = None
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 IMAGE_DIR = os.path.join(BASE_DIR, 'images')  # Changed from 'assets/images' to match your path
 
+small_font = pygame.font.SysFont('Arial', 20)  # For small text elements
+
 
 def load_piece_image(color, piece, size, fallback_size=None):
     """Helper function to load piece images with fallback"""
